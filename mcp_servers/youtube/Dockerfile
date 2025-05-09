@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY mcp_servers/youtube/server.py .
 
 # Copy the environment file
-COPY mcp_servers/youtube/.env .
+# COPY mcp_servers/youtube/.env .
 
 # Expose the port the server runs on
 EXPOSE 5000
